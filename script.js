@@ -140,21 +140,19 @@ function copyToClipboard() {
 function downloadBackgroundImage() {
     // If we have a current image
     if (currentImage) {
-        // Get image filename from path
+        // Get image filename from image path
         const imageName = currentImage.split('/').pop();
         
         // Create a download link
-        const a = document.createElement('a');
-        a.href = currentImage;
-        a.download = imageName || 'background-image.jpg';
+        const downloadLink = document.createElement('a');
+        downloadLink.href = currentImage;
+        downloadLink.download = imageName;
         
         // Trigger the download
-        document.body.appendChild(a);
-        a.click();
         
-        // Clean up
+        downloadLink.click();
+        
         setTimeout(() => {
-            document.body.removeChild(a);
             
             // Show visual feedback
             const originalImg = downloadBtn.innerHTML;
