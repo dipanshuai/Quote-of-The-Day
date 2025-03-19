@@ -1,1 +1,14 @@
-My Readme
+Features:
+
+Fetch a random quote from the API.
+Display the quote and author on the page.
+Add a "New Quote" button to fetch another quote.
+Implement a copy to clipboard button.
+Add a share on Twitter button.
+Bonus extra points
+Set a random background image behind the quote
+Add a "Export" button to save the quote image to user computer
+
+
+
+https://api.freeapi.app/api/v1/public/quotes/quote/random
