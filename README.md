@@ -11,6 +11,6 @@
 7. Downlod button to save the background image to user computer
 
 
-<a href="https://freeapi.hashnode.space/api-guide/apireference/getARandomQuote" target="_blank">See Live Website</a>
+<a href="https://learn.dipanshu.dev/quote-generator/" target="_blank">See Live Website</a>
 
 
