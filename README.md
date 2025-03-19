@@ -10,5 +10,7 @@ Set a random background image behind the quote
 Add a "Export" button to save the quote image to user computer
 
 
+live url: https://learn.dipanshu.dev/quote-generator/
+
 
 https://api.freeapi.app/api/v1/public/quotes/quote/random

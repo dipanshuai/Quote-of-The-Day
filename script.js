@@ -7,27 +7,27 @@ let copyBtn = document.getElementById('copybtn');
 let downloadBtn = document.getElementById('downloadBtn');
 
 const imageUrls = [
-    "img/pexels-alena-koval-233944-886521.jpg",
-    "img/pexels-andre-furtado-43594-1263986.jpg",
-    "img/pexels-arist-creathrive-1183525-2253573.jpg",
-    "img/pexels-francesco-ungaro-2325447.jpg",
-    "img/pexels-freestockpro-1172207.jpg",
-    "img/pexels-gochrisgoxyz-1477166.jpg",
-    "img/pexels-lum3n-44775-167684.jpg",
-    "img/pexels-matthardy-1533720.jpg",
-    "img/pexels-minan1398-906150.jpg",
-    "img/pexels-philippedonn-1133957.jpg",
-    "img/pexels-pixabay-35196.jpg",
-    "img/pexels-pixabay-39517.jpg",
-    "img/pexels-pixabay-68507.jpg",
-    "img/pexels-pixabay-147411.jpg",
-    "img/pexels-pixabay-158471.jpg",
-    "img/pexels-pixabay-158756.jpg",
-    "img/pexels-pixabay-158780.jpg",
-    "img/pexels-pixabay-163848.jpg",
-    "img/pexels-pixabay-247599.jpg",
-    "img/pexels-shottrotter-1115090.jpg",
-    "img/pexels-torsten-kellermann-349167-955656.jpg"
+    "img/pexels-alena-koval-233944-886521.jpeg",
+  "img/pexels-andre-furtado-43594-1263986.jpeg",
+  "img/pexels-arist-creathrive-1183525-2253573.jpeg",
+  "img/pexels-francesco-ungaro-2325447.jpeg",
+  "img/pexels-freestockpro-1172207.jpeg",
+  "img/pexels-gochrisgoxyz-1477166.jpeg",
+  "img/pexels-lum3n-44775-167684.jpeg",
+  "img/pexels-matthardy-1533720.jpeg",
+  "img/pexels-minan1398-906150.jpeg",
+  "img/pexels-philippedonn-1133957.jpeg",
+  "img/pexels-pixabay-35196.jpeg",
+  "img/pexels-pixabay-39517.jpeg",
+  "img/pexels-pixabay-68507.jpeg",
+  "img/pexels-pixabay-147411.jpeg",
+  "img/pexels-pixabay-158471.jpeg",
+  "img/pexels-pixabay-158756.jpeg",
+  "img/pexels-pixabay-158780.jpeg",
+  "img/pexels-pixabay-163848.jpeg",
+  "img/pexels-pixabay-247599.jpeg",
+  "img/pexels-shottrotter-1115090 Large.jpeg",
+  "img/pexels-torsten-kellermann-349167-955656 Large.jpeg"
 ];
 
 const url = 'https://api.freeapi.app/api/v1/public/quotes/quote/random';
@@ -124,7 +124,7 @@ function copyToClipboard() {
     navigator.clipboard.writeText(textToCopy)
         .then(() => {
             const originalImg = copyBtn.innerHTML;
-            copyBtn.innerHTML = '<img src="/img/check.svg" alt="Copied" width="100%" height="30px">';
+            copyBtn.innerHTML = '<img src="./img/check.svg" alt="Copied" width="100%" height="30px">';
             
             setTimeout(() => {
                 copyBtn.innerHTML = originalImg;
@@ -158,7 +158,7 @@ function downloadBackgroundImage() {
             
             // Show visual feedback
             const originalImg = downloadBtn.innerHTML;
-            downloadBtn.innerHTML = '<img src="/img/check.svg" alt="Downloaded" width="100%" height="30px">';
+            downloadBtn.innerHTML = '<img src="./img/check.svg" alt="Downloaded" width="100%" height="30px">';
             
             setTimeout(() => {
                 downloadBtn.innerHTML = originalImg;
