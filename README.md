@@ -1,7 +1,8 @@
-<img width="1780" alt="image" src="https://github.com/user-attachments/assets/8fece460-0303-416d-8120-b97939723caa" />#Random Quote Generator - Assignment 3
+#Random Quote Generator - Assignment 3
+![image] (https://github.com/user-attachments/assets/d7c38134-a784-4aa8-9591-cab98c6440c0)
 
 ##Features
-<img width="1780" alt="image" src="https://github.com/user-attachments/assets/d7c38134-a784-4aa8-9591-cab98c6440c0" />
+
 
 
 Fetch a random quote from the API.
