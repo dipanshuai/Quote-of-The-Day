@@ -1,20 +1,16 @@
-#Random Quote Generator - Assignment 3
-![image] (https://github.com/user-attachments/assets/d7c38134-a784-4aa8-9591-cab98c6440c0)
+# Random Quote Generator - Assignment 3
+![image](https://github.com/user-attachments/assets/d7c38134-a784-4aa8-9591-cab98c6440c0)
 
-##Features
-
-
-
-Fetch a random quote from the API.
-Display the quote and author on the page.
-Add a "New Quote" button to fetch another quote.
-Implement a copy to clipboard button.
-Add a share on Twitter button.
-Set a random background image behind the quote
-Add a "Export" button to save the quote image to user computer
+## Features
+1. Fetch a random quote from the API. <a href="https://freeapi.hashnode.space/api-guide/apireference/getARandomQuote" target="_blank">See API Docs</a>
+2. Display the quote and author on the page.
+3. "Get New Quote" button to get a new quote.
+4. Copy to clipboard button.
+5. "Share on X" button for easy sharing the quote and the author of the quote.
+6. Random image background behind image with each new quote 
+7. Downlod button to save the background image to user computer
 
 
-live url: https://learn.dipanshu.dev/quote-generator/
+<a href="https://freeapi.hashnode.space/api-guide/apireference/getARandomQuote" target="_blank">See Live Website</a>
 
 
-https://api.freeapi.app/api/v1/public/quotes/quote/random
