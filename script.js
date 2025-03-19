@@ -26,8 +26,8 @@ const imageUrls = [
   "img/pexels-pixabay-158780.jpeg",
   "img/pexels-pixabay-163848.jpeg",
   "img/pexels-pixabay-247599.jpeg",
-  "img/pexels-shottrotter-1115090 Large.jpeg",
-  "img/pexels-torsten-kellermann-349167-955656 Large.jpeg"
+  "img/pexels-shottrotter-1115090.jpeg",
+  "img/pexels-torsten-kellermann-349167-955656.jpeg"
 ];
 
 const url = 'https://api.freeapi.app/api/v1/public/quotes/quote/random';
