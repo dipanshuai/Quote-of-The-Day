@@ -33,7 +33,7 @@ const imageUrls = [
 const url = 'https://api.freeapi.app/api/v1/public/quotes/quote/random';
 const options = {method: 'GET', headers: {accept: 'application/json'}};
 
-// Global variables to store current quote and image
+// Global variables to store current quote data and image
 let currentQuote = "";
 let currentAuthor = "";
 let currentImage = "";
@@ -62,7 +62,6 @@ async function changeBg() {
     const randomImgNum = Math.floor(Math.random() * imageUrls.length);
     const imgurl = imageUrls[randomImgNum];
     currentImage = imgurl;
-    console.log(imgurl);
     
     // Create new image object to preload
     const img = new Image();
@@ -74,7 +73,7 @@ async function changeBg() {
     };
 }
 
-// Function to disable button with cooldown
+// Function to disable button with coutdown timer
 function waitBtn(button, seconds) {
     // Save original text
     const originalText = button.textContent;
@@ -103,14 +102,15 @@ function waitBtn(button, seconds) {
     }, 1000);
 }
 
-// Function to share on Twitter/X
+// Function to share on X
 function shareOnX() {
     const quoteText = quote.textContent;
     const authorText = author.textContent;
     const shareText = `${quoteText} - ${authorText}`;
+    //conver the text string to url
     const encodedText = encodeURIComponent(shareText);
     const twitterUrl = `https://x.com/intent/post?text=${encodedText}`;
-    
+    //open in new tab
     window.open(twitterUrl, '_blank');
 }
 
